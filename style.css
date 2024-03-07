@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    zoom: 1.6;
+}
+
+.ts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text {
+    padding: 10px;
+    background-color: #eee;
+    display: flex;
+    justify-content: space-around;
+    width: 425px;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+#contentTask {
+    width: 70%;
+    height: 33px;
+    outline: none;
+}
+
+.btn {
+    color: white;
+    background-color: #fd2f2f;
+    border: none;
+    border-radius: 5px;
+    width: 25%;
+    cursor: pointer;
+}
+
+.tasks {
+    background-color: #eee;
+    height: fit-content;
+    width: 425px;
+    border-radius: 15px;
+}
